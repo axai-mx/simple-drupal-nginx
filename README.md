@@ -24,3 +24,7 @@ restarting nginx.
 
     ln -s /etc/nginx/sites-available/sample-site.conf /etc/nginx/sites-enabled/sample-site.conf
 
+After that, add the server_name to your hosts file, to point to localhost:
+domains to axai.org point to localhost by default, no need to do it here, but here is an example when server_name is new-site
+
+127.0.0.1   new-site
