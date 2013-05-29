@@ -1,6 +1,8 @@
 This is a simple (one file) configuration file for nginx with drupal.
 It works with ubuntu 12.04 and 13.04.
 
+It is based on http://wiki.nginx.org/Drupal
+
 ## Pre-requisites
 
 * php5-fpm installed and all drupal dependencies (php5-mysql or php5-postgres, php5-gd, etc)
